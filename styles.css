@@ -1,0 +1,132 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f58fdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background-color: #e408ad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #630081;
+}
+
+.task-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #fdf0a4;
+    border-radius: 5px;
+}
+
+#priority-select {
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-task-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #0056b3;
+}
+
+.tasks-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tasks-list li {
+    background-color: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task {
+    flex: 1;
+   
+}
+
+.priority-low {
+    color: green;
+}
+
+.priority-medium {
+    color: orange;
+}
+
+.priority-high {
+    color: red;
+}
+
+.status-completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-buttons .edit-btn {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.task-buttons .edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.task-buttons .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.task-buttons .delete-btn:hover {
+    background-color: #c82333;
+}
+
+.task-buttons .complete-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.task-buttons .complete-btn:hover {
+    background-color: #218838;
+}
